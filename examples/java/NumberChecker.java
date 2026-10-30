@@ -1,4 +1,4 @@
-// Telegram Username Profile Checker API — Java 11+ example. Docs: https://docs.numberchecker.ai/telegram-username-profile-checker
+// Telegram Username Profile Checker API — Java 11+ example. Docs: See this repository README and openapi.yaml (hosted product guide unavailable)
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.URI;

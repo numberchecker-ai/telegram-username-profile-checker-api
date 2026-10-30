@@ -1,5 +1,5 @@
 <?php
-// Telegram Username Profile Checker API — PHP + cURL example. Docs: https://docs.numberchecker.ai/telegram-username-profile-checker
+// Telegram Username Profile Checker API — PHP + cURL example. Docs: See this repository README and openapi.yaml (hosted product guide unavailable)
 
 const BASE_URL = "https://api.numberchecker.ai";
 const TASK_TYPE = "tg_username_profile";

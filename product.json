@@ -5,7 +5,7 @@
   "description": "Asynchronous bulk Telegram username profile verification API for NumberChecker.",
   "official_site": "https://numberchecker.ai",
   "landing_page": "https://numberchecker.ai/products/telegram-username-profile-checker",
-  "canonical_docs": "https://docs.numberchecker.ai/telegram-username-profile-checker",
+  "canonical_docs": null,
   "base_url": "https://api.numberchecker.ai",
   "auth": {
     "type": "api_key",
@@ -35,22 +35,30 @@
     {
       "type": "tg_username_profile",
       "name": "Profile Checker",
-      "min": 1000,
+      "min": 500,
       "max": 10000000,
       "fields": [
         "username",
         "activated",
-        "nickname",
-        "avatar",
+        "avatar_url",
+        "uid",
+        "lastseen",
+        "activedays",
+        "member",
+        "category",
         "gender",
-        "age",
-        "skin_color"
+        "hair_color",
+        "skin_color",
+        "age"
       ],
-      "fields_note": "Verified against live sample; profile fields are now confirmed."
+      "fields_note": "CSV header read from the current signed-in sample endpoint on 2026-10-30; preserve exact order and duplicate names.",
+      "min_billable_numbers": 0,
+      "available": true
     }
   ],
   "pricing_url": "https://numberchecker.ai/pricing",
   "maintainer": "NumberChecker",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30",
+  "documentation_status": "product_specific_hosted_guide_unavailable"
 }

@@ -1,4 +1,4 @@
-// Telegram Username Profile Checker API — Go example. Docs: https://docs.numberchecker.ai/telegram-username-profile-checker
+// Telegram Username Profile Checker API — Go example. Docs: See this repository README and openapi.yaml (hosted product guide unavailable)
 package main
 
 import (
